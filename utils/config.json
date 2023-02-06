@@ -1,0 +1,72 @@
+{
+    "seed": 0,
+    "model_name": "SFCNTSP",
+    "dataset_name": "JingDong",
+    "cuda": 0,
+
+    "epochs": 2000,
+    "patience": 100,
+    "learning_rate": 0.001,
+    "batch_size": 64,
+    "optimizer": "Adam",
+    "use_scheduler": true,
+    "weight_decay": 0.0,
+    "alpha": 1.0,
+    "beta": 0.1,
+
+    "JingDong": {
+        "bias": false,
+        "embedding_channels": 64,
+        "dropout": 0.2,
+        "scheduler_t_max": 1000
+    },
+
+    "DC": {
+        "bias": true,
+        "embedding_channels": 64,
+        "dropout": 0.1,
+        "scheduler_t_max": 1000
+    },
+
+    "TaoBao": {
+        "bias": false,
+        "embedding_channels": 32,
+        "dropout": 0.05,
+        "scheduler_t_max": 10000
+    },
+
+    "TMS": {
+        "bias": false,
+        "embedding_channels": 64,
+        "dropout": 0.1,
+        "scheduler_t_max": 10000
+    },
+
+    "JingDong_inductive": {
+        "bias": false,
+        "embedding_channels": 64,
+        "dropout": 0.25,
+        "scheduler_t_max": 1000
+    },
+
+    "DC_inductive": {
+        "bias": true,
+        "embedding_channels": 64,
+        "dropout": 0.1,
+        "scheduler_t_max": 1000
+    },
+
+    "TaoBao_inductive": {
+        "bias": false,
+        "embedding_channels": 32,
+        "dropout": 0.05,
+        "scheduler_t_max": 10000
+    },
+
+    "TMS_inductive": {
+        "bias": false,
+        "embedding_channels": 64,
+        "dropout": 0.1,
+        "scheduler_t_max": 10000
+    }
+}
