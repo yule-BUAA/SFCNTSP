@@ -1,6 +1,6 @@
 # Predicting Temporal Sets with Simplified Fully Connected Networks
 
-The description of "Predicting Temporal Sets with Simplified Fully Connected Networks" at AAAI 2023 is [available here](). 
+The description of "Predicting Temporal Sets with Simplified Fully Connected Networks" at AAAI 2023 is [available here](https://ojs.aaai.org/index.php/AAAI/article/view/25609). 
 
 ### Original data:
 The original data could be downloaded from [here](https://drive.google.com/file/d/1f2Eexc9vwRYYrrvLzuL4zBnWwWs6EHhI/view?usp=sharing). 
@@ -39,16 +39,13 @@ Hyperparameters can be found in ```./utils/config.json``` file, and you can adju
 Please consider citing our paper when using the codes or datasets.
 
 ```
-@inproceedings{DBLP:conf/aaai/YuLZS23,
-  author    = {Le Yu and
-               Zihang Liu and
-               Tongyu Zhu and
-               Leilei Sun and
-               Bowen Du and
-               Weifeng Lv},
-  title     = {Predicting Temporal Sets with Simplified Fully Connected Networks},
-  booktitle = {Thirty-Seventh {AAAI} Conference on Artificial Intelligence},
-  publisher = {{AAAI} Press},
-  year      = {2023}
+@inproceedings{yu2023predicting,
+  title={Predicting Temporal Sets with Simplified Fully Connected Networks},
+  author={Yu, Le and Liu, Zihang and Zhu, Tongyu and Sun, Leilei and Du, Bowen and Lv, Weifeng},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={37},
+  number={4},
+  pages={4835--4844},
+  year={2023}
 }
 ```
